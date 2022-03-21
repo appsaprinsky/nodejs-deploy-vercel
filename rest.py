@@ -8,31 +8,31 @@ if __name__ == '__main__':
 ####Register
 
     # URL = "http://localhost:4001/register"
-    URL = "https://nodejs-deploy-vercel.vercel.app/register"
-    params = {
-        "first_name": "niki6",    
-        "last_name": "miki6",
-        "email": "niki6@gmail.com",    
-        "password": "NukeNuke"   
-    }
-    
-    
-    resp = requests.post(URL, json=params)
-    print(resp.text)
-
-
-
-####Login
-    # URL = "http://localhost:4001/login"
-    # URL = "https://nodejs-deploy-vercel.vercel.app/login"
+    # URL = "https://nodejs-deploy-vercel.vercel.app/register"
     # params = {
-    #     "email": "niki4@gmail.com",    
+    #     "first_name": "niki7",    
+    #     "last_name": "miki7",
+    #     "email": "niki7@gmail.com",    
     #     "password": "NukeNuke"   
     # }
     
     
     # resp = requests.post(URL, json=params)
     # print(resp.text)
+
+
+
+####Login
+    URL = "http://localhost:4001/login"
+    # URL = "https://nodejs-deploy-vercel.vercel.app/login"
+    params = {
+        "email": "niki4@gmail.com",    
+        "password": "NukeNuke"   
+    }
+    
+    
+    resp = requests.post(URL, json=params)
+    print(resp.text)
 
 
 
