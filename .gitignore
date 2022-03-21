@@ -1,3 +1,9 @@
+# Mine specific resources
+/resources_code
+/resources.txt
+.env
+
+
 # Logs
 logs
 *.log
