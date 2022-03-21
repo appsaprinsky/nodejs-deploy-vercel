@@ -10,9 +10,9 @@ if __name__ == '__main__':
     # URL = "http://localhost:4001/register"
     URL = "https://nodejs-deploy-vercel.vercel.app/register"
     params = {
-        "first_name": "niki5",    
-        "last_name": "miki5",
-        "email": "niki5@gmail.com",    
+        "first_name": "niki6",    
+        "last_name": "miki6",
+        "email": "niki6@gmail.com",    
         "password": "NukeNuke"   
     }
     
